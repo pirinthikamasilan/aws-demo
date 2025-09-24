@@ -47,4 +47,4 @@ jobs:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: my-ecs-app-service-3rrjfdfg
           cluster: ambitious-fish-uj6z5z
-          wait-for-service-stability: true
+          wait-for-service-stability: false
